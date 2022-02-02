@@ -78,7 +78,6 @@ btn.onclick = function(){
     }    
 }
 
-
 function removerSpans(){
     let spans = document.querySelectorAll('span');
 
@@ -97,7 +96,6 @@ function deletarTarefa(tar){
     // Salva os novos dados no banco de dados
     salvarDadosNoStorage();
 }
-
 
 function salvarDadosNoStorage(){
     // Todo navegador web possui esta capacidade
